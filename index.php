@@ -11,16 +11,18 @@
         <?php include './header.php' ?>
     </header>
     <main>
-        <div id="hero">
+        <section id="hero">
             <picture>
                 <source media="(max-width:600px)" srcset="./imagenes/hero-img-1-600p.webp">
                 <source media="(max-width:768px)" srcset="./imagenes/hero-img-1-768p.webp">
-                <source media="(max-width:1200px)" srcset="./imagenes/hero-img-1-1200p.webp">
-                <source media="(max-width:1600px)" srcset="./imagenes/hero-img-1-1600p.webp">
-                <img src="./imagenes/hero-img-1-1920p.webp" alt="paisaje">
+                <img src="./imagenes/hero-img-5-1200p.webp" alt="paisaje">
             </picture>
+            <h1>Juguetes eróticos para tus fantasías placenteras</h1>
+        </section>
+        <div id="suscribete">
+                <img src="./iconos/icono_campana.svg" alt="campana de suscripcion">
+                <span>Suscríbete</span>
         </div>
-        
     </main>
     <footer>
         <?php include './footer.php' ?>

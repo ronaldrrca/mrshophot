@@ -22,3 +22,20 @@
     font-size: 1.8rem;
     color: #fff;
 }
+
+h1{
+    font-size: 2.4rem;
+}
+
+#suscribete{
+    bottom: unset;
+    top: 80px;
+    width: 14rem;
+    padding: 1rem 1rem;
+}
+
+#suscribete img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
