@@ -58,13 +58,17 @@ footer{
     position: relative;
 }
 
-#hero picture{
+.hero_picture{
     width: 100%;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     overflow: hidden;
+}
+
+#hero_picture_1{
+    display: flex;
 }
 
 #hero img{
@@ -73,6 +77,26 @@ footer{
     height: 34rem;
     max-height: 34rem;
     object-fit: cover;
+}
+
+#flechas_hero{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+#flechas_hero img{
+    width: 4rem;
+    height: 4rem;
+}
+
+#flecha_avanzar_hero{
+    transform: rotateY(180deg);
 }
 
 h1{
@@ -151,6 +175,8 @@ nav{
     width: 2rem;
     height: 2rem;
 }
+
+
 
 
 

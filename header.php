@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" href="styles_600px.css" media="screen and (min-width: 390px)">
     <link rel="stylesheet" href="styles_768px.css" media="screen and (min-width: 768px)">
+    <link rel="stylesheet" href="styles_1200px.css" media="screen and (min-width: 1200px)">
     <link rel="stylesheet" href="styles_1600px.css" media="screen and (min-width: 1600px)">
 </head>
     <span id="nombre_sitio">Nombre del sitio</span>
