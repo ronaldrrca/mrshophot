@@ -36,7 +36,7 @@ main{
     margin-top: 6rem;
     width: 100%;
     min-height: calc(100vh - 12rem);
-    position: relative;
+    /* position: relative; */
 }
 
 footer{
@@ -47,6 +47,7 @@ footer{
     align-items: center;
     background-color: #E60060;
     color: #fff;
+    margin-top: 5rem;
 }
 
 #nombre_sitio{
@@ -157,13 +158,60 @@ nav{
     justify-content: space-between;
 }
 
-#suscribete{
-    position: fixed;
-    top: 360px;
-    right: 0;
-    width: 12rem;
+#suscribete_contactanos{
+    width: 100%;
+    max-width: 100rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+#suscribete, #contactanos{
+    width: 100%;
+    max-width: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#suscribete form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+#suscribete form input[type="email"]{
+    width: 28rem;
+    height: 4.5rem;
+    padding-left: 0.5rem;
+    /* margin-top: 0.5rem; */
+    border: 1px solid #333;
+    font-size: 1.6rem;
+}
+
+#suscribete form input[type="submit"]{
+    height: 4.5rem;
+    padding: 0 1rem;
+    background-color: green;
+    border: none;
+    color: #fff;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+
+
+#suscribete_etiqueta, #contactanos_etiqueta{
+    width: 100%;
+    max-width: 35rem;
+    height: 4.5rem;
+    display: flex;
+    justify-content: center;
     align-items: center;
     padding: 1rem 0.5rem;
     background-color: #333;
@@ -171,11 +219,57 @@ nav{
     font-size: 1.6rem;
 }
 
-#suscribete img{
+#suscribete_etiqueta img, #contactanos_etiqueta img{
     width: 2rem;
     height: 2rem;
+    margin-right: 1rem;
 }
 
+#contactanos{
+    margin-top: 5rem;
+}
+
+#contactanos_componentes{
+    width: 40rem;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+}
+
+#contactanos_componentes img{
+    width: 5rem;
+}
+
+#contactanos_llamar, #contactanos_whatsapp{
+    
+    display: flex;
+   
+    align-items: center;
+}
+
+#contactanos_llamar{
+    width: 70%;
+    justify-content: flex-start;
+    padding-left: 4rem;
+}
+
+#contactanos_llamar a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
+
+#contactanos_whatsapp{
+    width: 30%;
+    justify-content: flex-end;
+    padding-right: 4rem;
+}
+
+#contactanos_componentes span{
+    font-size: 2rem;
+    margin-left: 0.3rem;
+}
 
 
 

@@ -1,7 +1,59 @@
+#menu_movil{
+    display: none;
+}
+
+#iconos_menuMovil{
+    display: none;
+}
+
+#menu_desktop{
+    display: flex;
+}
+
+#menu_desktop li{
+    list-style: none;
+}
+
+#menu_desktop li a{
+    margin-left: 2rem;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+
 #flechas_hero{
     padding: 0 7rem;
 }
 
 #flechas_hero img{
     cursor: pointer;
+}
+
+#suscribete form input[type="submit"]:hover{
+    background-color: #333;
+}
+
+#suscribete form input[type="submit"]{
+    margin-left: 0.5rem;
+}
+
+#suscribete{
+    flex-direction: row;
+    max-width: 55rem;
+    padding: 1rem;
+}
+
+#contactanos{
+    display: none;
+}
+
+#suscribete form{
+    padding-top: 0;
+}
+
+#suscribete_etiqueta{
+    margin-right: 1rem;
 }

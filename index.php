@@ -4,49 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Inicio - MR SHOP HOT</title>
 </head>
 <body>
     <header>
         <?php include './header.php' ?>
     </header>
     <main>
-        <section id="hero">
-            <div id="flechas_hero">
-                <img id="flecha_retroceder_hero"  src="./iconos/icono_flecha_izquierda.svg" alt="icono retroceder">
-                <img id="flecha_avanzar_hero" src="./iconos/icono_flecha_izquierda.svg" alt="icono retroceder">
-            </div>
-            <picture id="hero_picture_1" class="hero_picture">
-                <source media="(max-width:600px)" srcset="./imagenes/hero-img-1-600p.webp">
-                <source media="(max-width:768px)" srcset="./imagenes/hero-img-1-768p.webp">
-                <img src="./imagenes/hero-img-1-1200p.webp" alt="paisaje">
-            </picture>
-            <picture id="hero_picture_2" class="hero_picture">
-                <source media="(max-width:600px)" srcset="./imagenes/hero-img-2-600p.webp">
-                <source media="(max-width:768px)" srcset="./imagenes/hero-img-2-768p.webp">
-                <img src="./imagenes/hero-img-2-1200p.webp" alt="paisaje">
-            </picture>
-            <picture id="hero_picture_3" class="hero_picture">
-                <source media="(max-width:600px)" srcset="./imagenes/hero-img-3-600p.webp">
-                <source media="(max-width:768px)" srcset="./imagenes/hero-img-3-768p.webp">
-                <img src="./imagenes/hero-img-3-1200p.webp" alt="paisaje">
-            </picture>
-            <picture id="hero_picture_4" class="hero_picture">
-                <source media="(max-width:600px)" srcset="./imagenes/hero-img-4-600p.webp">
-                <source media="(max-width:768px)" srcset="./imagenes/hero-img-4-768p.webp">
-                <img src="./imagenes/hero-img-4-1200p.webp" alt="paisaje">
-            </picture>
-            <picture id="hero_picture_5" class="hero_picture">
-                <source media="(max-width:600px)" srcset="./imagenes/hero-img-5-600p.webp">
-                <source media="(max-width:768px)" srcset="./imagenes/hero-img-5-768p.webp">
-                <img src="./imagenes/hero-img-5-1200p.webp" alt="paisaje">
-            </picture>
-        </section>
-        <div id="suscribete">
-                <img src="./iconos/icono_campana.svg" alt="campana de suscripcion">
-                <span>Suscríbete</span>
-        </div>
+        <?php include './hero.php' ?>
         <h1>Juguetes eróticos para tus fantasías placenteras</h1>
+        <section id="suscribete_contactanos">
+            <div id="suscribete">
+                <div id="suscribete_etiqueta">
+                        <img src="./iconos/icono_campana.svg" alt="campana de suscripcion">
+                        <span>Suscríbete</span>
+                </div>
+                <form action="index.php">
+                    <input type="email" placeholder="Ingresa tu correo electrónico">
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+            <div id="contactanos">
+                <div id="contactanos_etiqueta">
+                        <img src="./iconos/icono_campana.svg" alt="campana de suscripcion">
+                        <span>Contáctanos</span>
+                </div>
+                <div id="contactanos_componentes">
+                    <div id="contactanos_llamar"><a href="tel:+573003581311"><img src="./iconos/icono_tel.svg" alt="icono whatsapp"><span>+57 300 3581311</span></a></div>
+                    <div id="contactanos_whatsapp"><img src="./iconos/icono_whatsapp_2.svg" alt="icono whatsapp"></div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         <?php include './footer.php' ?>
