@@ -35,6 +35,27 @@
                 </div>
             </div>
         </section>
+        <section id="destacados">
+            <h2>Destacados</h2>
+            <div id="items_destacados">
+                <div id="item_destacado">
+                    <img src="./imagenes/product.svg" alt="producto">
+                    <span>Título</span>
+                </div>
+                <div id="item_destacado">
+                    <img src="./imagenes/product.svg" alt="producto">
+                    <span>Título</span>
+                </div>
+                <div id="item_destacado">
+                    <img src="./imagenes/product.svg" alt="producto">
+                    <span>Título</span>
+                </div>
+                <div id="item_destacado">
+                    <img src="./imagenes/product.svg" alt="producto">
+                    <span>Título</span>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         <?php include './footer.php' ?>

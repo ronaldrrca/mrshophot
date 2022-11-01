@@ -18,6 +18,14 @@ h1{
     display: none;
 }
 
+#items_destacados{
+    max-width: 90%;
+}
+
+#item_destacado{
+    width: 22rem;
+}
+
 
 
 

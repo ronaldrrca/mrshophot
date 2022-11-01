@@ -275,6 +275,47 @@ nav{
     display: none;
 }
 
+#items_destacados{
+    width: 100%;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#item_destacado{
+    width: 19rem;
+    margin-bottom: 1rem;
+    border: 2px solid gray;
+}
+
+#destacados{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+#destacados h2{
+    margin-bottom: 3rem;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+#destacados span{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0.5rem 0;
+    background-color: #E60060;
+    color: #fff;
+    font-size: 1.6rem;
+}
+
 
 
 
