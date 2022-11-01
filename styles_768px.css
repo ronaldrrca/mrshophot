@@ -14,9 +14,9 @@ h1{
     flex-direction: row;
 }
 
-/* #contactanos_componentes{
-    padding-top: 0;
-} */
+#contactanos_header{
+    display: none;
+}
 
 
 

@@ -57,3 +57,23 @@
 #suscribete_etiqueta{
     margin-right: 1rem;
 }
+
+nav{
+    display: flex;
+}
+
+#contactanos_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12rem;
+}
+
+#contactanos_header img{
+    width: 3rem;
+    margin-left: 5rem;
+}
+
+#contactanos_header span{
+    font-size: 1.5rem;
+}

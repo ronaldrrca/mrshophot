@@ -17,6 +17,10 @@
             <li><a id="" href="#">Categorías</a></li>
             <li><a href="#">Blog</a></li>
         </ul>
+        <div id="contactanos_header">
+            <span> Teléfono: +57 300 3581311</span>    
+            <img src="./iconos/icono_whatsapp_2.svg" alt="icono whatsapp">
+        </div>
         <ul id="menu_desktop">
             <li><a href="#">Inicio</a></li>
             <li><a href="#">Categorías</a></li>
