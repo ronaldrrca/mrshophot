@@ -32,6 +32,10 @@
     cursor: pointer;
 }
 
+#flechas_hero img:hover{
+    color: #333;
+}
+
 #suscribete form input[type="submit"]:hover{
     background-color: #333;
 }
