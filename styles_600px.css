@@ -11,7 +11,11 @@ html{
 
 body{
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 header{
@@ -23,6 +27,7 @@ header{
     padding: 0 2rem;
     position: fixed;
     top: 0;
+    left: 0;
     background-color: #E60060;
     color: #fff;
     z-index: 10;
@@ -35,8 +40,8 @@ main{
     align-items: center;
     margin-top: 6rem;
     width: 100%;
+    max-width: 140rem;
     min-height: calc(100vh - 12rem);
-    /* position: relative; */
 }
 
 footer{
@@ -74,7 +79,7 @@ footer{
 
 #hero img{
     width: 100%;
-    max-width: 140rem;
+    
     height: 34rem;
     max-height: 34rem;
     object-fit: cover;
@@ -284,10 +289,18 @@ nav{
     flex-wrap: wrap;
 }
 
-#item_destacado{
+.item_destacado{
     width: 19rem;
+    height: 32.5rem;
     margin-bottom: 1rem;
-    border: 2px solid gray;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+}
+
+.item_destacado img{
+    width: 19rem;
+    border-radius: 10px;
 }
 
 #destacados{
@@ -297,6 +310,8 @@ nav{
     justify-content: flex-start;
     align-items: center;
     margin-top: 5rem;
+    background-color: #f2f2f2;
+    padding: 5rem 0;
 }
 
 #destacados h2{
@@ -305,17 +320,51 @@ nav{
     font-size: 1.8rem;
 }
 
-#destacados span{
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding: 0.5rem 0;
-    background-color: #E60060;
-    color: #fff;
-    font-size: 1.6rem;
+.info_item_destacado{
+    display: flex;
+    flex-direction: column;
+    padding: 0.8rem;
 }
 
+.info_item_destacado span{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    padding: 0.5rem 0;
+    color: #222222;
+    /* border: 1px solid red; */
+}
 
+.descripcion_item_destacado{
+    font-size: 1.4rem;
+}
+
+.precio_item_destacado{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.info_item_destacado .envio_item_destacado{
+    font-size: 1.5rem;
+    color: red;
+}
+
+.envio_item_destacado{
+    height: 1.78rem;
+}
+
+.info_item_destacado .codigo_item_destacado{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    align-items: flex-end;
+    color: darkgrey;
+}
+
+#ver_todos{
+    margin-top: 3rem;
+    font-size: 1.6rem;
+}
 
 

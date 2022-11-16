@@ -14,7 +14,7 @@
         </div>
         <ul id="menu_movil">
             <li><a href="./index.php">Inicio</a></li>
-            <li><a id="" href="#">Categorías</a></li>
+            <li><a id="" href="#">Productos</a></li>
             <li><a href="#">Blog</a></li>
         </ul>
         <div id="contactanos_header">
@@ -23,7 +23,7 @@
         </div>
         <ul id="menu_desktop">
             <li><a href="#">Inicio</a></li>
-            <li><a href="#">Categorías</a></li>
+            <li><a href="#">Productos</a></li>
             <li><a href="#">Blog</a></li>
         </ul>
     </nav>
