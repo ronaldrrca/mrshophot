@@ -367,4 +367,22 @@ nav{
     font-size: 1.6rem;
 }
 
+#servicios{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5rem 0;
+}
+
+.servicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+    font-size: 1.4rem;
+}
+
 

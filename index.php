@@ -149,7 +149,20 @@
             </div>
             <a id="ver_todos" href="#">Ver todos</a>
         </section>
-        
+        <section id="servicios">
+            <div class="servicio">
+                <img src="./iconos/icono_carrito.svg" alt="icono carriro de compras">
+                <span>Compra discreta</span>
+            </div>
+            <div class="servicio">
+                <img src="./iconos/icono_paquete.svg" alt="icono paquete">
+                <span>Envíos discretos</span>
+            </div>
+            <div class="servicio">
+                <img src="./iconos/icono_camion.svg" alt="icono camion de envios">
+                <span>Envíos nacionales y <br> servicio a domicilio*</span>
+            </div>
+        </section>
     </main>
     <footer>
         <?php include './footer.php' ?>
