@@ -38,15 +38,17 @@
         <section id="destacados">
             <h2>Destacados</h2>
             <div id="items_destacados">
-                <div class="item_destacado">
-                    <img src="./imagenes/mrsh-002-vibrador-tipo-conejo.webp" alt="vibrador tipo conejo">
-                    <div class="info_item_destacado">
-                        <span class="descripcion_item_destacado">Vibrador de doble estimulación tipo conejo</span>
-                        <span class="precio_item_destacado">$ 115.000</span>
-                        <span class="envio_item_destacado">Envío gratis</span>
-                        <span class="codigo_item_destacado">Código: 1001</span>
+                <a href="./producto_1001_vibrador_doble_estimulacion_tipo_conejo.php">
+                    <div class="item_destacado">
+                        <img src="./imagenes/mrsh-002-vibrador-tipo-conejo.webp" alt="vibrador tipo conejo">
+                        <div class="info_item_destacado">
+                            <span class="descripcion_item_destacado">Vibrador de doble estimulación tipo conejo</span>
+                            <span class="precio_item_destacado">$ 115.000</span>
+                            <span class="envio_item_destacado">Envío gratis</span>
+                            <span class="codigo_item_destacado">Código: 1001</span>
+                        </div>
                     </div>
-                </div>
+                </a>
                 <div class="item_destacado">
                     <img src="./imagenes/mrsh-003-vibrador-succionador.webp" alt="vibrador succionador">
                     <div class="info_item_destacado">
@@ -89,7 +91,7 @@
                         <span class="descripcion_item_destacado">Gel orgásmico estimulador para mujeres</span>
                         <span class="precio_item_destacado">$ 20.000</span>
                         <span class="envio_item_destacado"></span>
-                        <span class="codigo_item_destacado">Código: 1008</span>
+                        <span class="codigo_item_destacado">Código: 3001</span>
                     </div>
                 </div>
                 <div class="item_destacado">
@@ -98,7 +100,7 @@
                         <span class="descripcion_item_destacado">Retardante sexual para hombres</span>
                         <span class="precio_item_destacado">$ 28.000</span>
                         <span class="envio_item_destacado">Envío gratis</span>
-                        <span class="codigo_item_destacado">Código: 1005</span>
+                        <span class="codigo_item_destacado">Código: 3002</span>
                     </div>
                 </div>
                 <div class="item_destacado">
@@ -107,7 +109,7 @@
                         <span class="descripcion_item_destacado">Consolador anal o vaginal doble penetración</span>
                         <span class="precio_item_destacado">$ 43.000</span>
                         <span class="envio_item_destacado">Envío gratis</span>
-                        <span class="codigo_item_destacado">Código: 1006</span>
+                        <span class="codigo_item_destacado">Código: 2001</span>
                     </div>
                 </div>
                 <div class="item_destacado">

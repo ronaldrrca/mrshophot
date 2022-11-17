@@ -22,7 +22,7 @@
             <img src="./iconos/icono_whatsapp_2.svg" alt="icono whatsapp">
         </div>
         <ul id="menu_desktop">
-            <li><a href="#">Inicio</a></li>
+            <li><a href="./index.php">Inicio</a></li>
             <li><a href="#">Productos</a></li>
             <li><a href="#">Blog</a></li>
         </ul>
